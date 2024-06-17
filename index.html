@@ -52,11 +52,11 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Mahcine Learning-based Hypertension Prediction</h1>
+            <h1 class="title is-1 publication-title">Predicting hypertension using health insurance data</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                    <a href="https://sites.google.com/view/bdsl-yonsei" target="_blank">Uiwon Hwang</a>
+                    Kyungwon Lee
                   <sup>1</sup></span>
                   </div>
 
@@ -94,7 +94,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/shinyflight/ProjectPage" target="_blank"
+                    <a href="https://github.com/kyungwon1108/kyungwon_Final-Project" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -153,9 +153,7 @@
         <h2 class="title is-3">Introduction</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
+            고혈압은 조기 발견과 예방이 중요한 만성질환으로, 혈압 측정 없이도 건강검진 데이터만으로 고혈압을 예측할 수 있다면 여러 가지 중요한 이점을 제공합니다. 첫째, 추가적인 검사를 받지 않아도 되므로 접근성이 향상되고, 시간과 비용을 절감할 수 있습니다. 둘째, 비침습적인 예측 방법은 환자의 불편함을 줄여주며, 정기적인 건강검진 데이터를 통해 고혈압 위험을 지속적으로 모니터링할 수 있습니다. 본 보고서에서는 이러한 예측 프로그램의 개발 과정과 그 결과에 대해 자세히 살펴보겠습니다.
       </div>
     </div>
   </div>
@@ -178,11 +176,9 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method</h2>
-        <!-- Your image here -->
-        <img src="static/images/ai1.jpg" alt="MY ALT TEXT"/>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            데이터 전처리 및 모델 학습: 건강검진 데이터를 전처리하고, Logistic Regression과 XGBoost 모델을 사용하여 고혈압 예측 모델을 학습시킵니다.<br> 모델 평가: 각 모델의 예측 성능을 평가하고, 혼동 행렬과 ROC 곡선을 시각화하여 성능을 분석합니다.<br>데이터 분포 시각화: 라벨 분포와 혈압 분포를 시각화하여 데이터의 특징을 파악합니다.
           </p>
         </div>
       </div>
@@ -222,6 +218,18 @@
 </section>
 
 <!-- End image carousel -->
+  <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Body</h2>
+        <div class="content has-text-justified">
+          <p>
+           1. 본 프로젝트에서는 건강검진 데이터를 사용하여 고혈압 예측 모델을 개발하였으며, 데이터 전처리 과정에서는 고혈압 라벨링, 결측치 처리, 범주형 변수 인코딩, 언더샘플링을 통한 데이터 균형 조정, 데이터 표준화를 수행하였습니다. 이를 통해 학습 데이터와 테스트 데이터를 준비하여 모델의 성능을 향상시켰습니다. <br><br> 2. 본 프로젝트에서는 두 가지 인공지능 모델을 사용하여 고혈압을 예측하였습니다. 첫 번째 모델은 Logistic Regression으로, 이는 선형 회귀 모델의 확장 버전으로 분류 문제에 적합한 모델입니다. 두 번째 모델은 XGBoost로, 이는 부스팅 기법을 사용하여 여러 약한 학습기를 결합하여 강한 학습기를 만드는 앙상블 기법 중 하나입니다. 각 모델은 학습 데이터로 학습시킨 후, 테스트 데이터로 성능을 평가하였습니다.<br><br> 3. 본 프로젝트에서의 실험 결과는 Logistic Regression과 XGBoost 모델의 고혈압 예측 성능을 나타냅니다. 각 모델의 정밀도, 재현율, F1-점수, 지원 수치를 통해 두 모델의 성능을 평가할 수 있습니다.
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Experiments -->
